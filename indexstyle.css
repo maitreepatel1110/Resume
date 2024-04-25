@@ -206,6 +206,7 @@ body {
 }
 .bgimg {
   height: 20%;
+  width: fit-content;
 }
 .role {
   color: #2b3467;
@@ -399,6 +400,5 @@ blockquote {
 .projects {
   max-width: auto;
   height: 400px;
-  background-color:#040a39;
- 
+  background-color: #040a39;
 }
