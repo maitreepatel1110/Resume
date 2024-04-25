@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactstyle.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <form action="process_contact_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <p>
+        For business inquiries, please email us at:
+        <a href="mailto:your_email@example.com">maitreepatel@gmail.com</a>
+      </p>
+
+      <div>
+        <p>Connect with us on social media:</p>
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/your_facebook_profile"
+              target="_blank"
+              ><img src="Facebook_Logo_(2019).png"
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/your_twitter_profile" target="_blank"
+              ><img id="x" src="twitter_x_new_logo_x_rounded_icon_256078.png" />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/your_linkedin_profile"
+              target="_blank"
+              ><img src="lnn.png"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
